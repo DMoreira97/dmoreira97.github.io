@@ -104,34 +104,19 @@ export const singleProjectData = {
 		SocialSharing: [
 			{
 				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
+				name: 'Website',
+				url: 'https://dmoreira97.github.io/',
 			},
 			{
 				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
+				name: 'GitHub',
+				url: 'https://github.com/DMoreira97',
 			},
 			{
 				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
 				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
-			},
+				url: 'https://www.linkedin.com/in/diogom-o-moreira/',
+			}
 		],
 	},
 	RelatedProject: {

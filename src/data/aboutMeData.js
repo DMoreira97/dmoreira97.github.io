@@ -1,10 +1,10 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: 'I am honored to stand before you today as a seasoned data scientist and machine learning engineer with nearly five years of hands-on experience in this dynamic and rapidly evolving field. Throughout my journey, I have had the privilege of working on diverse and complex projects that have not only honed my technical skills but also allowed me to contribute to impactful solutions.',
 	},
 	{
 		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+		bio: 'Over the years, I have demonstrated proficiency in building predictive models, leveraging machine learning algorithms to extract actionable insights from large datasets, and creating robust data-driven solutions. My work has spanned various industries, from finance and healthcare to e-commerce and beyond, and I have consistently delivered results that have improved decision-making processes, optimized operations, and enhanced customer experiences.',
 	},
 ];

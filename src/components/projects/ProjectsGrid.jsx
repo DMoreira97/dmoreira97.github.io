@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { FiSearch } from 'react-icons/fi';
-import ProjectSingle from './ProjectSingle';
+import ProjectSingleItem from './ProjectSingleItem';
 import { ProjectsContext } from '../../context/ProjectsContext';
 import ProjectsFilter from './ProjectsFilter';
 
@@ -95,29 +95,32 @@ const ProjectsGrid = () => {
 
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
 				{selectProject
-					? selectProjectsByCategory.map((project) => (
-							<ProjectSingle
+					? selectProjectsByCategory.map((project, index) => (
+							<ProjectSingleItem
 								title={project.title}
 								category={project.category}
 								image={project.img}
-								key={project.id}
+								key={index}
+								reflink={project.ref}
 							/>
 					  ))
 					: searchProject
-					? searchProjectsByTitle.map((project) => (
-							<ProjectSingle
+					? searchProjectsByTitle.map((project, index) => (
+							<ProjectSingleItem
 								title={project.title}
 								category={project.category}
 								image={project.img}
-								key={project.id}
+								key={index}
+								reflink={project.ref}
 							/>
 					  ))
-					: projects.map((project) => (
-							<ProjectSingle
+					: projects.map((project, index) => (
+							<ProjectSingleItem
 								title={project.title}
 								category={project.category}
 								image={project.img}
-								key={project.id}
+								key={index}
+								reflink={project.ref}
 							/>
 					  ))}
 			</div>
